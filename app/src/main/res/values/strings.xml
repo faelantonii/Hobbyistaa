@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hobbyista</string>
+    <string name="title_home">Home</string>
+    <string name="title_jelajah">Jelajah</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_akun">Akun</string>
+    <string name="title_post">Post</string>
+
+    <string name="splash">hobbyista</string>
+
+    <string name="login"><b><u>Login</u> </b></string>
+    <string name="daftar"><b><u>Daftar</u> </b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

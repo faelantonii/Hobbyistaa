@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "270172403382",
+    "firebase_url": "https://hobbyistaa.firebaseio.com",
+    "project_id": "hobbyistaa",
+    "storage_bucket": "hobbyistaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270172403382:android:d03fab24bbf1b8a7",
+        "android_client_info": {
+          "package_name": "com.sweenutt.hobbyistaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270172403382-4jrbda8fkcj17n3of24dlit6jmpo5vs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvtfxPW270JXfW37QV13OaNGs1lkpwfYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270172403382-4jrbda8fkcj17n3of24dlit6jmpo5vs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcfcfc"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="Fragments.PostFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="12dp"
+            android:clipToPadding="false"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_feature1"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sample_background_feature_1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+
+                    android:textSize="22dp"
+                    android:text="Fitur 1"
+                    android:textColor="@color/putih"
+                    android:fontFamily="@font/my_nunito"
+                    android:textStyle="bold"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_feature2"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sample_background_feature_2"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+
+                    android:textSize="22dp"
+                    android:text="Fitur 2"
+                    android:textColor="@color/putih"
+                    android:fontFamily="@font/my_nunito"
+                    android:textStyle="bold"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:clipToPadding="false"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_feature3"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+
+                android:layout_marginStart="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sample_background_feature_3"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center"
+
+                    android:textSize="22dp"
+                    android:text="Fitur 3"
+                    android:textColor="@color/putih"
+                    android:fontFamily="@font/my_nunito"
+                    android:textStyle="bold"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_feature4"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sample_background_feature_4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="22dp"
+                    android:text="Fitur 4"
+                    android:textColor="@color/putih"
+                    android:fontFamily="@font/my_nunito"
+                    android:textStyle="bold"
+                    />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clipToPadding="false"
+            android:gravity="center_horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cerita"
+                android:clickable="true"
+                android:layout_width="310dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:id="@+id/layoutClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="44dp"
+                        android:layout_height="44dp"
+                        android:background="@drawable/cerclebackgroundpurple"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Cerita"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Bagikan cerita unik dan menarik kamu"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="13sp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
